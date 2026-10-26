@@ -1,0 +1,20 @@
+{
+  "name": "backend-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "seed-dev-users": "node seeding/seed.users.js",
+    "delete-dev-users": "node seeding/delete.user.seeds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "body-parser": "^2.3.0",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2"
+  }
+}
